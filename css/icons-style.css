@@ -1,0 +1,20 @@
+.social-icons{
+    display: flex;
+    transform: translate(-24px, -80px);
+}
+
+.social-icons h1{
+    justify-self: center;
+    align-self: center;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-left: 3%;
+}
+
+.icons img{
+    width: 55px;
+    height: 55px;
+}

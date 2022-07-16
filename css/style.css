@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	display: none;
+	background-color: rgb(219, 207, 201);
+	width: 270px;
+	font-family: "Edu NSW ACT Foundation", cursive;
+	height: auto;
+	transition: transform 0.3s ease-in;
+	margin-right: 30px;
+}
+
+.space {
+	/* display: none; */
+	width: 180px;
+}
+
+.sidebar nav {
+	padding: 45px;
+}
+.sidebar nav li {
+	list-style: none;
+	font-size: 30px;
+	padding: 33px 0;
+}
+.sidebar nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+.main {
+	/*background-color: yellow;*/
+	width: 80vw;
+}
+.container {
+	display: flex;
+}
+.infocontainer {
+	/*background-color:rgb(240, 59, 185);*/
+	/* height: 58vh; */
+	/* width: 80vw ; */
+	margin: 144px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.devinfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+	font-size: 65px;
+}
+
+.name {
+	font-size: 50px;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.about {
+	font-size: 36px;
+}
+.moreabout {
+	font-size: 20px;
+	margin-top: 23px;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.buttons {
+	margin-top: 14px;
+}
+.buttons button {
+	padding: 10px;
+	border-radius: 3ch;
+	color: white;
+	background-color: rgb(17, 121, 219);
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.buttons button:hover {
+	background-color: white;
+	color: rgb(18, 18, 207);
+}
+.devpic img {
+	height: 70vh;
+}
+
+.contactform {
+	padding: 0 34px;
+	padding-top: 4px;
+
+	font-family: "Fira Sans", sans-serif;
+}
+.contactform h1 {
+	font-family: "source code pro", monospace;
+	padding: 12px 0;
+}
+
+.contactform form div {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+}
+.contactform form div {
+	width: 26vw;
+	border-radius: 5px;
+	margin: 6px 0 0 0;
+	padding: 3px;
+}
+
+#emailhelp {
+	font-size: 11px;
+	color: midnightblue;
+	margin: 0 5px;
+}
+
+.form-check {
+	display: flex;
+	flex-direction: row;
+}
+
+.form-check input {
+	display: inline-block;
+	width: 24px;
+	margin: 3px 0;
+	border-width: 0;
+}
+
+.form-check label {
+	display: inline-block;
+}
+
+.skillcontainer {
+	font-family: "Fira Sans", sans-serif;
+	margin: 23px;
+}
+.intro h2 {
+	font-family: "Fira Sans", sans-serif;
+	margin: 12px;
+}
+.intro p {
+	font-family: "Source Code Pro", monospace;
+	margin: 12px;
+}
+.skillcontainer {
+	padding: 12px;
+}
+.skillitem {
+	display: flexbox;
+}
+.skill {
+	width: 23px;
+	height: 6px;
+	background-color: blueviolet;
+	border: 2px solid black;
+}
+
+.seventy {
+	width: 180px;
+}
+.fifty {
+	width: 125px;
+}
+.twentyfive {
+	width: 75px;
+}
+
+.cross {
+	display: flex;
+	justify-content: right;
+	padding-top: 14px;
+	padding-right: 16px;
+}
+
+#cross {
+	width: 25px;
+	cursor: pointer;
+}
+
+#hamburger {
+	position: absolute;
+	cursor: pointer;
+	top: 20px;
+	left: 20px;
+}
