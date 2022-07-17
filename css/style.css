@@ -204,4 +204,68 @@
 	display: inline-block;
 	padding-bottom: 1px;
 	border-bottom: 3px solid #000;
+	margin-bottom: 40px;
+}
+
+.certificates {
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.certificate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	border-radius: 20px;
+	border: 4px solid #000;
+	margin: 4px;
+}
+
+.certificate p {
+	font-size: 20px;
+	padding-bottom: 2px;
+}
+
+.certificate img {
+	height: 700px;
+	width: 900px;
+	margin: 10px;
+}
+
+.certImg {
+	display: none;
+}
+
+.certHeader {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	width: 70%;
+}
+
+.viewCertImg {
+	margin-right: 0;
+	margin-left: auto;
+	font-size: 18px;
+}
+
+.closeCertImg {
+	margin-right: 0;
+	margin-left: auto;
+	font-size: 18px;
+	display: none;
+}
+
+.viewCertImg:hover {
+	padding-bottom: 0;
+	cursor: pointer;
+	border-bottom: 2px solid #000;
+}
+
+.closeCertImg:hover {
+	padding-bottom: 0;
+	cursor: pointer;
+	border-bottom: 2px solid #000;
 }
